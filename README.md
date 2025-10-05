@@ -1,20 +1,20 @@
 <img width="1943" height="1093" alt="image" src="https://github.com/user-attachments/assets/cc2ff955-17c2-48c7-81c8-479a0f061850" />
 
-# DevPortfolio Template
+# Duy An Nguyen - Portfolio
 
-A modern, minimalist portfolio template built with Astro and Tailwind CSS. Perfect for developers looking to showcase their skills, experience, and projects in a clean, professional way.
+A modern, minimalist portfolio built with Astro and Tailwind CSS. Showcasing skills, experience, and projects in a clean, professional way.
 
-This was completely rebuilt from the ground up from V1. This template was built to be entirely ready to go with a quick config edit (see below) but also provides the ability to easily extend in whatever way you want.
+This portfolio demonstrates expertise in modern web development with Astro, Tailwind CSS, and responsive design principles. Built to showcase professional capabilities and provide a clean, engaging user experience.
 
-This template also comes with `CLAUDE.md` and `.cursor/rules` files for easy integration with your existing AI workflows.
+This portfolio also includes optimized performance, SEO best practices, and accessibility features.
 
 > **📬 Connect & Share!**  
-> For questions and updates, feel free to reach out on [**X (Twitter)**](https://x.com/rfitzio).  
-> If you've built and published your personal site with this template, I'd love to see it! Send me a DM 🚀
+> For questions and updates, feel free to reach out on [**LinkedIn**](https://www.linkedin.com/in/duy-an-nguyễn-26a0726a/) or [**GitHub**](https://github.com/duyan90).  
+> Let's connect and discuss Angular, Node.js, or any development opportunities! 🚀
 
-## Preview
+## Live Portfolio
 
-To view a live preview of the site, [click here](https://duyan-portfolio.vercel.app/).
+To view the live portfolio, [click here](https://duyan-portfolio.vercel.app/).
 
 ## Built With
 
@@ -23,102 +23,90 @@ To view a live preview of the site, [click here](https://duyan-portfolio.vercel.
 - **[Tabler Icons](https://tabler.io/icons)** - Free and open source icons
 - **TypeScript** - For type-safe configuration
 
-## Updating the Template
+## About Me
 
-### Configuration
+I am a software engineer specializing in Angular and Node.js with over 9 years of experience building enterprise-scale applications focusing on performance, responsive UI, and real-time features.
 
-The template is designed to be easily customizable through the `src/config.ts` file. This single file controls:
+My expertise covers Angular SSR, RxJS Signals, TailwindCSS, and scalable Node.js APIs (NestJS, Express). I have developed enterprise-scale applications with SSR, designed scalable Node.js APIs, implemented real-time features with SignalR, and improved performance by 30% through optimization techniques.
 
-- **Personal Information**: Name, title, description
-- **Accent Color**: Primary color theme (changing this will change the accent color site wide)
-- **Social Links**: Email, LinkedIn, Twitter, GitHub (all optional)
-- **About Section**: Personal bio/description
-- **Skills**: List of technical skills
-- **Projects**: Project showcase with descriptions and links
-- **Experience**: Work history with bullet points
-- **Education**: Educational background and achievements
+## Skills & Technologies
 
-If skills, projects, experience, or education are removed from the config, those sections will be hidden entirely.
+### Frontend
+- Angular (v18+) with SSR
+- RxJS / Signals
+- NgRx State Management
+- TailwindCSS
+- Responsive UI/UX Design
 
-### Example structures
+### Backend
+- Node.js
+- NestJS / Express
+- REST API / GraphQL
+- PostgreSQL / MySQL / MongoDB
+- SignalR (Realtime)
 
-Here's what the config data structure looks like for each section:
+### DevOps & Tools
+- Git / Docker / CI-CD
+- Agile / Scrum
+- Plotly (Data Visualization)
+- Vercel / Netlify Deployment
 
-#### Basic Information
-```typescript
-name: "Your Name",
-title: "Your Job Title",
-description: "Brief site description",
-accentColor: "#1d4ed8", // Hex color for theme
-```
+## Experience
 
-#### Social Links (all optional)
-```typescript
-social: {
-  email: "your-email@example.com",
-  linkedin: "https://linkedin.com/in/yourprofile",
-  twitter: "https://twitter.com/yourprofile", 
-  github: "https://github.com/yourusername",
-}
-```
+### FPT Software (Apr 2021 – Present)
+**Angular & Node.js Developer**
+- Developed enterprise-scale Angular applications with SSR
+- Designed scalable Node.js APIs using NestJS and Express
+- Implemented real-time features with SignalR, boosting user engagement
+- Improved performance by 30% via lazy loading and optimization
 
-#### About Section
-```typescript
-aboutMe: "A paragraph describing yourself, your background, interests, and what you're passionate about. This appears in the About section of your portfolio."
-```
+### TC Systems Vietnam (Dec 2019 – Apr 2021)
+**JavaScript Developer (Angular & Node.js)**
+- Built responsive Angular frontends with REST APIs on Node.js backend
+- Integrated third-party APIs and optimized web performance
 
-#### Skills
-```typescript
-skills: ["JavaScript", "React", "Node.js", "Python", "AWS", "Docker"]
-```
+### Previous Experience
+**Angular Developer** - Nexle Corporation (May 2019 – Nov 2019)
+**JavaScript Developer** - Axon Active Vietnam (Aug 2017 – May 2019)
+**Java Developer** - bbv Software Services, Cosatech, Infonam (2014-2017)
 
-#### Projects
-```typescript
-projects: [
-  {
-    name: "Project Name",
-    description: "Brief description of what the project does and its impact",
-    link: "https://github.com/yourusername/project",
-    skills: ["React", "Node.js", "AWS"], // Technologies used
-  }
-]
-```
+## Education
 
-#### Experience
-```typescript
-experience: [
-  {
-    company: "Company Name",
-    title: "Your Job Title",
-    dateRange: "Jan 2022 - Present",
-    bullets: [
-      "Led development of microservices architecture serving 1M+ users",
-      "Reduced API response times by 40% through optimization",
-      "Mentored team of 5 junior developers",
-    ],
-  }
-]
-```
+**Ho Chi Minh University of Technology** (2009 – 2014)
+Bachelor of Software Engineering
+- Graduated with strong foundation in Computer Science & Engineering
 
-#### Education
-```typescript
-education: [
-  {
-    school: "University Name",
-    degree: "Bachelor of Science in Computer Science",
-    dateRange: "2014 - 2018",
-    achievements: [
-      "Graduated Magna Cum Laude with 3.8 GPA",
-      "Dean's List all semesters",
-      "President of Computer Science Club"
-    ]
-  }
-]
-```
+## Projects
 
-### Icons
+### Enterprise Management System
+Large-scale Angular frontend with Node.js (NestJS) backend to manage thousands of users in real-time.
+**Tech Stack:** Angular, Node.js, NestJS, PostgreSQL, SignalR
+[View Demo](https://demo-enterprise.vercel.app)
 
-The template uses [Tabler Icons](https://tabler.io/icons) for all icons. If you wish to add more icons and have it look consistent with what's already there, you can browse through their extensive icon library.
+### E-Commerce Platform
+Full-stack Angular + Node.js e-commerce system with SSR, payment gateway integration, and responsive design.
+**Tech Stack:** Angular SSR, Node.js, TailwindCSS, Stripe
+[View Demo](https://demo-shop.vercel.app)
+
+### Portfolio Website
+Personal portfolio built with Angular SSR, TailwindCSS, and deployed on Vercel.
+**Tech Stack:** Angular, Node.js, TailwindCSS, Vercel
+[View Demo](https://duyan-portfolio.vercel.app)
+
+## Contact
+
+- **Email:** [nguyenduyan90@gmail.com](mailto:nguyenduyan90@gmail.com)
+- **LinkedIn:** [Duy An Nguyễn](https://www.linkedin.com/in/duy-an-nguyễn-26a0726a/)
+- **GitHub:** [duyan90](https://github.com/duyan90)
+
+## Features
+
+- 🎨 **Modern Design**: Clean, minimalist interface with Tailwind CSS
+- 📱 **Responsive**: Optimized for all devices and screen sizes
+- ⚡ **Fast Performance**: Built with Astro for optimal loading speeds
+- 🎯 **SEO Optimized**: Meta tags and structured data for better search visibility
+- 🔧 **Easy Customization**: Simple configuration through TypeScript
+- 📊 **Professional Layout**: Showcases skills, experience, and projects effectively
 
 ## Project Structure
 
@@ -148,15 +136,15 @@ devportfolio/
 
 ## Local Development
 
-If you'd like to run it locally:
+To run this portfolio locally:
 
 ```
-git clone https://github.com/duyan90/profile
-cd devportfolio
+git clone https://github.com/duyan90/devportfolio-master
+cd devportfolio-master
 npm install
 ```
 
-After that, start up the Astro dev server with:
+Then start the Astro development server:
 
 ```
 npm run dev
@@ -180,8 +168,10 @@ To view the changelog, see CHANGELOG.md.
 
 ## License
 
-This project is fully and completely MIT. See LICENSE.md.
+Copyright © 2024 Duy An Nguyen. All rights reserved.
+
+This portfolio is built with modern web technologies and showcases professional development capabilities. Feel free to use this as inspiration for your own portfolio projects.
 
 ## Questions?
 
-Feel free to reach out on [X (Twitter)](https://x.com/rfitzio) if you have any questions or need help.
+Feel free to reach out on [LinkedIn](https://www.linkedin.com/in/duy-an-nguyễn-26a0726a/) or [GitHub](https://github.com/duyan90) if you have any questions about Angular, Node.js development, or potential opportunities.

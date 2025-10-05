@@ -1,7 +1,10 @@
 {
-  "name": "devportfolio",
+  "name": "duyan-portfolio",
   "type": "module",
-  "version": "0.0.1",
+  "version": "1.0.0",
+  "description": "Duy An Nguyen's portfolio - A modern, minimalist portfolio built with Astro and Tailwind CSS showcasing Angular & Node.js expertise.",
+  "author": "Duy An Nguyen <nguyenduyan90@gmail.com>",
+  "license": "MIT",
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
