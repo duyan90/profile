@@ -14,16 +14,77 @@ import "../styles/global.css";
   <head>
     <meta charset="utf-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="generator" content={Astro.generator} />
+    
+    <!-- Primary Meta Tags -->
+    <title>{siteConfig.name} - {siteConfig.title}</title>
+    <meta name="title" content={`${siteConfig.name} - ${siteConfig.title}`} />
     <meta name="description" content={siteConfig.description} />
+    <meta name="keywords" content="Duy An Nguyen, Angular Developer, Node.js Developer, Full Stack Developer, Web Developer, Portfolio, JavaScript, TypeScript, Angular, Node.js, NestJS, Express, MongoDB, PostgreSQL" />
+    <meta name="author" content="Duy An Nguyen" />
+    <meta name="robots" content="index, follow" />
+    <meta name="language" content="English" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://duyan-portfolio.vercel.app/" />
+    <meta property="og:title" content={`${siteConfig.name} - ${siteConfig.title}`} />
+    <meta property="og:description" content={siteConfig.description} />
+    <meta property="og:image" content="https://duyan-portfolio.vercel.app/og-image.jpg" />
+    <meta property="og:site_name" content="Duy An Nguyen Portfolio" />
+    <meta property="og:locale" content="en_US" />
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://duyan-portfolio.vercel.app/" />
+    <meta property="twitter:title" content={`${siteConfig.name} - ${siteConfig.title}`} />
+    <meta property="twitter:description" content={siteConfig.description} />
+    <meta property="twitter:image" content="https://duyan-portfolio.vercel.app/og-image.jpg" />
+    <meta property="twitter:creator" content="@duyan90" />
+    
+    <!-- Additional SEO -->
+    <meta name="theme-color" content={siteConfig.accentColor} />
+    <meta name="msapplication-TileColor" content={siteConfig.accentColor} />
+    <link rel="canonical" href="https://duyan-portfolio.vercel.app/" />
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Duy An Nguyen",
+      "jobTitle": "Angular & Node.js Developer",
+      "description": "Angular & Node.js developer with 9+ years of experience building scalable, performant, and responsive enterprise applications.",
+      "url": "https://duyan-portfolio.vercel.app/",
+      "sameAs": [
+        "https://www.linkedin.com/in/duy-an-nguyễn-26a0726a/",
+        "https://github.com/duyan90"
+      ],
+      "email": "nguyenduyan90@gmail.com",
+      "alumniOf": "Ho Chi Minh University of Technology",
+      "knowsAbout": [
+        "Angular",
+        "Node.js",
+        "JavaScript",
+        "TypeScript",
+        "NestJS",
+        "Express",
+        "MongoDB",
+        "PostgreSQL",
+        "TailwindCSS",
+        "RxJS"
+      ]
+    }
+    </script>
+    
+    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
       rel="stylesheet"
     />
-    <title>{siteConfig.name} - {siteConfig.title}</title>
   </head>
   <body>
     <Header />
