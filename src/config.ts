@@ -37,6 +37,13 @@ My expertise covers Angular SSR, RxJS Signals, TailwindCSS, and scalable Node.js
   // List of projects to showcase on portfolio
   projects: [
     {
+      name: "Box Upload App",
+      description:
+        "Full-stack file upload application built with Angular 20 and NestJS using Nx monorepo. Features modern UI with Tailwind CSS, RESTful API, and comprehensive testing setup.",
+      link: "https://box-upload-webapp-angular.vercel.app/",
+      skills: ["Angular 20", "NestJS", "Nx", "TailwindCSS", "TypeScript", "RxJS"]
+    },
+    {
       name: "Enterprise Management System",
       description:
         "Built a large-scale Angular frontend with a Node.js (NestJS) backend to manage thousands of users in real-time.",
